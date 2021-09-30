@@ -18,7 +18,7 @@ jobs:
     
     - name: Generate BDF
       env:
-        CPPTEST_SCAN_PROJECT_NAME: FlowAnalysis
+        CPPTEST_SCAN_PROJECT_NAME: ./FlowAnalysis
       run: |
         & "C:\Program Files\Parasoft\C++test\10.5\cpptesttrace.exe" make all
       working-directory: FlowAnalysis
