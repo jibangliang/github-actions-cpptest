@@ -21,7 +21,7 @@ jobs:
         CPPTEST_SCAN_PROJECT_NAME: FlowAnalysis
       run: |
         & "C:\Program Files\Parasoft\C++test\10.5\cpptesttrace.exe" make all
-      working-directory: ./FlowAnalysis
+      working-directory: FlowAnalysis
 
     - name: Run C++test
       # Use the 'run-cpptest-action' GitHub Action.
